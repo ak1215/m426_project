@@ -1,9 +1,9 @@
 <DOCTYPE! html>
 <html>
 <head>
-    <link rel="stylesheet" href="Styles/stylesheet.css">
+    <link rel="stylesheet" href="view/styles/log">
 </head>
 <body>
-    
+
 </body>
 </html>
