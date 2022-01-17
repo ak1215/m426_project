@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-
 <body>
 <?php require './view/header.php'; ?>
+<?php require './view/navbar.php'; ?>
 <!-- Title Image -->
 <div className="title-image">
     <img src="./view/pictures/title-picture.png" className="title-image" width="100%"/>
@@ -12,8 +12,8 @@
 <div class="container py-5">
     <div class="row mt-4">
         <form method="post">
-            <button type="submit" name="sort" class="btn" value="asc">price low to high</button>
-            <button type="submit" name="sort" class="btn" value="desc">price high to low</button>
+            <button type="submit" name="sort" class="btn" value="asc" style="color: white">price low to high</button>
+            <button type="submit" name="sort" class="btn" value="desc" style="color: white">price high to low</button>
         </form>
     </div>
 </div>
