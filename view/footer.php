@@ -1,47 +1,57 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/view/styles/stylesheet.css">
-</head>
+<!-- Footer -->
+<footer class="footer text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+        <!-- Section: Links -->
+        <section class="">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Aeki</h5>
 
-<!-- Navbar-->
-<nav class="navbar navbar-light fixed-top">
-    <div class="container-fluid">
-        <img class="navbar-brand" src="./view/pictures/logo.png" height="50px" width="40px" </img>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-             aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <p class="text-white">We provide the best Furniture service in Switzerland </p>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
 
-                        <a class="nav-link active" aria-current="page" href="#">Home</a><img
-                            src="view/pictures/home-icon.png">
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Cart</a>
-                    </li>
-                </ul>
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+
+                    <ul class="list-unstyled mb-0">
+                        <img src="view/pictures/facebook-icon.png" style="height: 30px; margin-right:10px ">
+                        <img src="view/pictures/instagram-icon.png" style="height: 30px; margin-right:10px">
+                        <img src="view/pictures/email-icon.png" style="height: 30px; margin-right:10px">
+                        <img src="view/pictures/twitter-icon.png" style="height: 30px">
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Impressum</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <p class="text-white">Find our Infos in the Impressum</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
             </div>
-        </div>
+            <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
     </div>
-</nav>
-</html>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Aeki. All rights reserved.
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
