@@ -13,65 +13,25 @@
 
 <body>
 <img class="logo" src="pictures/register-logo.png" alt="logo">
-<div class="container" id="register_fields">
+<div class="container" id="login_fields">
     <div class="row">
         <div class="col-sm-3"></div>
         <div class="col-sm-6">
-            <form action="../model/registrierung-model.php" method="post">
-                <fieldset class="register-group">
-                    <legend class="register-group-label">I'm new here</legend>
-                    <div class="register-group">
-                        <label for="label_firstname">Firstname *</label>
-                        <br>
-                        <input type="text" id="input_firstname" name="input_firstname" placeholder="Jerry"
-                               required="required">
-                    </div>
-                    <div class="register-group">
-                        <label for="label_lastname">Lastname *</label>
-                        <br>
-                        <input type="text" id="input_lastname" name="input_lastname" placeholder="Reet"
-                               required="required">
-                    </div>
-                    <div class="register-group">
-                        <label for="label_street">Street *</label>
-                        <br>
-                        <input type="text" id="input_street" name="input_street" placeholder="Booleanstrasse"
-                               required="required">
-                    </div>
-                    <div class="register-group">
-                        <label for="label_housenumber">House Number *</label>
-                        <br>
-                        <input type="number" id="input_housenumber" name="input_housenumber" placeholder="65"
-                               required="required">
-                    </div>
-                    <div class="register-group">
-                        <label for="label_plz">PLZ *</label>
-                        <br>
-                        <input type="number" id="input_plz" name="input_plz" placeholder="5432" required="required">
-                    </div>
-                    <div class="register-group">
-                        <label for="label_country">Country *</label>
-                        <br>
-                        <select id="input_country" name="input_country">
-                            <option name="input_country" value="GE">Germany</option>
-                            <option name="input_country" value="EN">England</option>
-                            <option name="input_country" value="IT">Italy</option>
-                            <option name="input_country" value="FR">France</option>
-                            <option name="input_country" value="CH">China</option>
-                        </select>
-                    </div>
-                    <div class="register-group">
+            <form action="../model/login-model.php" method="post">
+                <fieldset class="login-group">
+                    <legend class="login-group-label">Login</legend>
+                    <div class="login-group">
                         <label for="label_email">E-Mail *</label>
                         <br>
                         <input type="text" id="input_email" name="input_email" placeholder="Jerry" required="required">
                     </div>
-                    <div class="register-group">
+                    <div class="login-group">
                         <label for="label_password">Password *</label>
                         <br>
                         <input type="password" id="input_password" name="input_password" required="required">
                     </div>
-                    <div class="register-button">
-                        <input class="register-btn" type="submit" value="Register">
+                    <div class="login-button">
+                        <input class="login-btn" type="submit" value="Log in">
                     </div>
                 </fieldset>
         </div>
