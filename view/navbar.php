@@ -5,7 +5,7 @@
 <nav class="navbar navbar-light fixed-top">
     <div class="container-fluid">
         <img class="navbar-brand" src="./view/pictures/logo.png" height="50px" width="40px" </img>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar" style="border-color: white">
             <span class="navbar-toggler-icon"></span>
         </button>
