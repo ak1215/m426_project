@@ -1,5 +1,6 @@
 <?php
 require('dbconnection.php');
+require('validation.php');
 
 //Verbindung zur Datenbank
 $con = getDbConnection();
@@ -24,9 +25,13 @@ $message = "";
 if($num < 0){
 $message = "This email is already in use. :(";
 }else{
-$insert = "insert into users(email, password, firstname, lastname) values ('$email', '$pass', '$firstname', '$lastname')";
-$message = "Registration successful. :)";
-session_start();
-$_SESSION['email'] = $email;
+    if(validateUser() == true) {
+        $insert = "insert into users(email, password, firstname, lastname) values ('$email', '$pass', '$firstname', '$lastname')";
+        $message = "Registration successful. :)";
+        session_start();
+        $_SESSION['email'] = $email;
+    }else{
+        $message = "Please fill in correct data";
+    }
 }
 ?>
