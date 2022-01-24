@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<img class="logo" src="../view/pictures/logo.png" alt="logo">
+<img class="logo" src="pictures/register-logo.png" alt="logo">
 <div class="container" id="register_fields">
     <div class="row">
         <div class="col-sm-3"></div>
@@ -80,7 +80,7 @@
     <div class="col-sm-3"></div>
 </div>
 
-<footer>
+<footer class="register-footer">
     <br>
     <br>
     <br>

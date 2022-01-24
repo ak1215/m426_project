@@ -146,6 +146,22 @@ hr.solid {
     background-color: #AA3939;
 }
 
-footer {
+.register-footer {
     text-align: center;
+}
+
+.navbar{
+    background-color: #AA3939;
+}
+.offcanvas{
+    background-color: #AA3939;
+}
+.footer{
+    background-color: #AA3939;
+}
+.btn{
+    background-color: #AA3939;
+}
+.custom-toggler-sicon {
+   color: white;
 }
