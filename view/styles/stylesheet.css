@@ -1,0 +1,151 @@
+.logo {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.register-group {
+
+}
+
+.register-group-label {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.register-button {
+
+}
+
+.register-btn {
+    background-color: #AA3939;
+    color: white;
+    border-radius: 7px;
+    margin-top: 20px;
+    padding: 5px 30px;
+    border-style: solid;
+    border-color: white;
+}
+
+.login-redirect-btn {
+    background-color: #AA3939;
+    color: white;
+    border-radius: 7px;
+    margin-top: 20px;
+    padding: 5px 30px;
+    border-style: solid;
+    border-color: white;
+}
+
+label[for=label_firstname] {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#input_firstname {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-style: solid;
+    border-color: #AA3939;
+}
+
+label[for=label_lastname] {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#input_lastname {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-style: solid;
+    border-color: #AA3939;
+}
+
+label[for=label_street] {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#input_street {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-style: solid;
+    border-color: #AA3939;
+}
+
+label[for=label_housenumber] {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#input_housenumber {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-style: solid;
+    border-color: #AA3939;
+}
+
+label[for=label_plz] {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#input_plz {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-style: solid;
+    border-color: #AA3939;
+}
+
+label[for=label_country] {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#input_country {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-right-width: 10px;
+    border-color: #AA3939;
+}
+
+label[for=label_email] {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#input_email {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-style: solid;
+    border-color: #AA3939;
+}
+
+label[for=label_password] {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#input_password {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-style: solid;
+    border-color: #AA3939;
+}
+
+hr.solid {
+    border: none;
+    border-top: 3px solid #AA3939;
+    background-color: #AA3939;
+}
+
+footer {
+    text-align: center;
+}
