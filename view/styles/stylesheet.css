@@ -165,3 +165,31 @@ hr.solid {
 .custom-toggler-sicon {
    color: white;
 }
+
+/* Styles für Warenkorb */
+#con{
+    border: 5px solid #AA3939;
+    width: 856px;
+    margin-bottom: 50px;
+}
+
+.warenkorb-buttons{
+    margin-top: 80px;
+}
+
+.warenkorb-items{
+    margin-top: 20px;
+}
+
+.warenkorb-preis{
+    margin-top: 20px;
+}
+
+#warenkorb-erster-container{
+    margin-top: 150px;
+}
+
+#warenkorb-linie{ 
+      color: black;
+      height: 5px;
+}

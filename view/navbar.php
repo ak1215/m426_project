@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-<?php require './view/header.php'; ?>
+<?php require 'C:\xampp\htdocs\m426_project\view\header.php'; ?>
 <!-- Navbar-->
 <nav class="navbar navbar-light fixed-top">
     <div class="container-fluid">
-        <img class="navbar-brand" src="./view/pictures/logo.png" height="50px" width="40px" </img>
+        <img class="navbar-brand" src="./view/pictures/logo.png" height="50px" width="40px">
         <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar" style="border-color: white">
             <span class="navbar-toggler-icon"></span>
