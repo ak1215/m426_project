@@ -2,6 +2,7 @@
 <html>
 <body>
 <?php require './view/navbar.php'; ?>
+<?php include './Includes/db-connection.php'; ?>
 <!-- Title Image -->
 <div className="title-image">
     <img src="./view/pictures/title-picture.png" className="title-image" width="100%"/>
@@ -17,45 +18,32 @@
     </div>
 </div>
 
+<?php
+
+$conn = connectDataBase();
+$query = "SELECT * FROM furniture";
+$result = mysqli_query($conn, $query); ?>
+
 <!-- Card -->
 <div class="container">
     <div class="row">
-        <div class="col-md-4 mt-5">
-            <div class="card h-100">
-                <img src="view/pictures/cardimg-1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <a href="#" class="btn btn-secondary">Go somewhere</a>
+        <?php
+        while ($row = mysqli_fetch_array($result)) {
+            ?>
+            <div class="col-md-4 mt-5">
+                <div class="card h-100">
+                    <?php echo '<img class="card-img-top" alt="Card image cap" src="' . $row['url'] . '"/>'; ?>
+                  <!--  <img src="view/pictures/cardimg-1.png" class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                        <h5 class="card-title"><?php echo $row['name']; ?></h5>
+                        <p class="card-text">Price: CHF<?php echo $row['price']; ?></p>
+                        <a href="#" class="btn btn-secondary">Add to cart</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4 mt-5">
-            <div class="card h-100">
-                <img src="view/pictures/cardimg-2.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <a href="#" class="btn btn-secondary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 mt-5">
-            <div class="card h-100">
-                <img src="view/pictures/cardimg-3.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <a href="#" class="btn btn-secondary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
+            <?php
+        }
+        ?>
     </div>
 </div>
 <br>
