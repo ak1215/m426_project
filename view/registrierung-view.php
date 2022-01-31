@@ -1,3 +1,9 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    header('location:/View/login-view.php');
+}
+?>
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -87,9 +93,11 @@
     <hr class="solid">
     <br>
     <h2>I'm already a member</h2>
-    <div class="login-redirect-button">
-        <input class="login-redirect-btn" type="submit" value="Log in">
-    </div>
+    <form method="post">
+        <div class="login-redirect-button">
+            <input class="login-redirect-btn" type="submit" value="Log in">
+        </div>
+    </form>
     <br>
     <br>
 </footer>
