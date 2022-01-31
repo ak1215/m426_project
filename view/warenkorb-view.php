@@ -16,7 +16,7 @@
                 <div class="container" id="con">
                     <div class="row">
                         <div class="col-sm-3">
-                            <div><img src="pictures/chairrr.jpg" alt="Chair"></div>
+                            <div><img src="pictures/chairr.png" alt="Chair" class="warenkorb-bilder"></div>
                         </div>
                         <div class="col-sm-3">
                         </div>
@@ -27,8 +27,8 @@
                             <div>Velvet, green<br>
                                 80cm x 90cm</div>
                             <div class="warenkorb-buttons">
-                            <a href="#"><button class="btn btn-secondary">1</button></a>
-                            <a href="#"><button class="btn btn-secondary">Delete</button></a>
+                                <a href="#"><button class="btn btn-secondary">1</button></a>
+                                <a href="#"><button class="btn btn-secondary">Delete</button></a>
                             </div>
                         </div>
                         <div class="col-sm-3">
@@ -67,7 +67,7 @@
                 <div class="container" id="con">
                     <div class="row">
                         <div class="col-sm-3">
-                            <div><img src="pictures/closet.PNG" alt="Closet"></div>
+                            <div><img src="pictures/closet.PNG" alt="Closet" class="warenkorb-bilder"></div>
                         </div>
                         <div class="col-sm-3">
                         </div>
@@ -95,7 +95,7 @@
                     <div class="container" id="con">
                         <div class="row">
                             <div class="col-sm-3">
-                                <div><img src="pictures/lamp.PNG" alt="lamp"></div>
+                                <div><img src="pictures/lamp.PNG" alt="lamp" class="warenkorb-bilder"></div>
                             </div>
                             <div class="col-sm-3">
                             </div>
@@ -110,7 +110,7 @@
                                     <a href="#" class="btn btn-secondary">Delete</a>
                                 </div>
                             </div>
-                            <div class="col-sm-3"> 
+                            <div class="col-sm-3">
                                 <div class="warenkorb-preis">CHF 30.00</div>
                             </div>
                         </div>
@@ -120,8 +120,9 @@
                 </div>
             </div>
         </div>
-
-        <?php require 'footer.php'; ?>
+    </div>
+    <?php require 'footer.php'; ?>
 
 </body>
+
 </html>

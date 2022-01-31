@@ -22,10 +22,10 @@
                 <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
 
                     <ul class="list-unstyled mb-0">
-                        <img src="view/pictures/facebook-icon.png" style="height: 30px; margin-right:10px ">
-                        <img src="view/pictures/instagram-icon.png" style="height: 30px; margin-right:10px">
-                        <img src="view/pictures/email-icon.png" style="height: 30px; margin-right:10px">
-                        <img src="view/pictures/twitter-icon.png" style="height: 30px">
+                        <img src="view/pictures/facebook-icon.png" style="height: 30px; margin-right:10px " alt=" ">
+                        <img src="view/pictures/instagram-icon.png" style="height: 30px; margin-right:10px" alt=" ">
+                        <img src="view/pictures/email-icon.png" style="height: 30px; margin-right:10px" alt=" ">
+                        <img src="view/pictures/twitter-icon.png" style="height: 30px" alt=" ">
                     </ul>
                 </div>
                 <!--Grid column-->
