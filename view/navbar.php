@@ -37,13 +37,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#" style="color: white">
+                        <a class="nav-link active" aria-current="page" href="../view/warenkorb-view.php" style="color: white">
                             <img src="view/pictures/cart-icon.png" style="margin-right: 5px; margin-bottom: 5px"
                                  height="17px">Cart</a>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#" style="color: white">
+                        <a class="nav-link active" aria-current="page" href="../view/login-view.php" style="color: white">
                             <img src="view/pictures/login-icon.png" style="margin-right: 5px; margin-bottom: 5px"
                                  height="17px">Login</a>
                         </a>
