@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<?php require './view/header.php'; ?>
+<?php require 'C:\xampp\htdocs\m426_project\view\header.php'; ?>
 <!-- Navbar-->
 <nav class="navbar navbar-light fixed-top">
     <div class="container-fluid">
