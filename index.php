@@ -21,7 +21,7 @@
 <?php
 
 $conn = connectDataBase();
-$query = "SELECT * FROM furniture";
+$query = "SELECT * FROM Furniture";
 $result = mysqli_query($conn, $query); ?>
 
 <!-- Card -->
@@ -33,7 +33,7 @@ $result = mysqli_query($conn, $query); ?>
             <div class="col-md-4 mt-5">
                 <div class="card h-100">
                     <?php echo '<img class="card-img-top" alt="Card image cap" src="' . $row['url'] . '"/>'; ?>
-                  <!--  <img src="view/pictures/cardimg-1.png" class="card-img-top" alt="..."> -->
+                    <!--  <img src="view/pictures/cardimg-1.png" class="card-img-top" alt="..."> -->
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $row['name']; ?></h5>
                         <p class="card-text">Price: CHF<?php echo $row['price']; ?></p>

@@ -2,7 +2,7 @@
 //Verbindung von DB
 function connectDataBase()
 {
-    $db_host = "aeki.bplaced.net";
+    $db_host = "localhost";
     $db_name = "aeki_mariaDB";
     $db_username = "aeki_team";
     $db_password = "_.gangbang._";
