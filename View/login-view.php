@@ -1,3 +1,9 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    header('location:/View/registrierung-view.php');
+}
+?>
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -8,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/view/styles/stylesheet.css">
+    <link rel="stylesheet" href="/View/styles/stylesheet.css">
 </head>
 
 <body>
@@ -17,18 +23,20 @@
     <div class="row">
         <div class="col-sm-3"></div>
         <div class="col-sm-6">
-            <form action="../model/login-model.php" method="post">
+            <form action="../Model/login-model.php" method="post">
                 <fieldset class="login-group">
                     <legend class="login-group-label">Login</legend>
                     <div class="login-group">
-                        <label for="label_email">E-Mail *</label>
+                        <label for="login_label_email">E-Mail *</label>
                         <br>
-                        <input type="text" id="input_email" name="input_email" placeholder="Jerry" required="required">
+                        <input type="text" id="login_input_email" name="login_input_email" placeholder="Jerry"
+                               required="required">
                     </div>
                     <div class="login-group">
-                        <label for="label_password">Password *</label>
+                        <label for="login_label_password">Password *</label>
                         <br>
-                        <input type="password" id="input_password" name="input_password" required="required">
+                        <input type="password" id="login_input_password" name="login_input_password"
+                               required="required">
                     </div>
                     <div class="login-button">
                         <input class="login-btn" type="submit" value="Log in">
@@ -40,16 +48,18 @@
     <div class="col-sm-3"></div>
 </div>
 
-<footer class="register-footer">
+<footer class="login-footer">
     <br>
     <br>
     <br>
     <hr class="solid">
     <br>
-    <h2>I'm already a member</h2>
-    <div class="login-redirect-button">
-        <input class="login-redirect-btn" type="submit" value="Log in">
-    </div>
+    <h2>I'm new here</h2>
+    <form method="post">
+        <div class="login-redirect-button">
+            <input class="login-redirect-btn" type="submit" value="Log in">
+        </div>
+    </form>
     <br>
     <br>
 </footer>

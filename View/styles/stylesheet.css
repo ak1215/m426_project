@@ -36,6 +36,7 @@
     border-color: white;
 }
 
+/** Register **/
 label[for=label_firstname] {
     margin-top: 15px;
     font-size: 20px;
@@ -140,14 +141,55 @@ label[for=label_password] {
     border-color: #AA3939;
 }
 
+.register-footer {
+    text-align: center;
+}
+
+/** Login **/
+label[for=login_label_email] {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#login_input_email {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-style: solid;
+    border-color: #AA3939;
+}
+
+label[for=login_label_password] {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#login_input_password {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-style: solid;
+    border-color: #AA3939;
+}
+
+.login-footer {
+    text-align: center;
+}
+
+.login-btn {
+    background-color: #AA3939;
+    color: white;
+    border-radius: 7px;
+    margin-top: 20px;
+    padding: 5px 30px;
+    border-style: solid;
+    border-color: white;
+}
+
 hr.solid {
     border: none;
     border-top: 3px solid #AA3939;
     background-color: #AA3939;
-}
-
-.register-footer {
-    text-align: center;
 }
 
 .navbar{
